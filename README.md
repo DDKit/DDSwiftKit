@@ -22,7 +22,7 @@ pod 'DDSwiftKit'
 
 ## Author
 
-duanchanghe, jay8018_ios@126.com
+duanchanghe, 592110272@qq.com
 
 ## License
 
