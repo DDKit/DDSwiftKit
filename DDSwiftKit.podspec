@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DDSwiftKit/Classes/**/*'
+  s..swift-version = 4.0
   # s.resource_bundles = {
   #   'DDSwiftKit' => ['DDSwiftKit/Assets/*.png']
   # }
