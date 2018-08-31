@@ -1,0 +1,22 @@
+{
+  "name": "DDSwiftKit",
+  "version": "0.1.0",
+  "summary": "A short description of DDSwiftKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/duanchanghe/DDSwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "duanchanghe": "jay8018_ios@126.com"
+  },
+  "source": {
+    "git": "https://github.com/duanchanghe/DDSwiftKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDSwiftKit/Classes/**/*"
+}

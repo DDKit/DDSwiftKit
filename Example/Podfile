@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDSwiftKit_Example' do
+  pod 'DDSwiftKit', :path => '../'
+
+  target 'DDSwiftKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

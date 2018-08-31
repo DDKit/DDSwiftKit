@@ -1,0 +1,16 @@
+PODS:
+  - DDSwiftKit (0.1.0)
+
+DEPENDENCIES:
+  - DDSwiftKit (from `../`)
+
+EXTERNAL SOURCES:
+  DDSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDSwiftKit: dd8dba91fb9eb80c4f4606fb96dbc7582602e694
+
+PODFILE CHECKSUM: 660bef0f8b0ab1802c5a47eb751312989471ea93
+
+COCOAPODS: 1.5.3

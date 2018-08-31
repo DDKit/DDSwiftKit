@@ -1,0 +1,6 @@
+framework module DDSwiftKit {
+  umbrella header "DDSwiftKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
