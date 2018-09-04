@@ -16,7 +16,6 @@
 		C6DF46F410C5EF847E0894E368DD31AD /* Pods-DDSwiftKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A69E1CBE24D646494CED6867ED047 /* Pods-DDSwiftKit_Tests-dummy.m */; };
 		CC3E840FBF63F62285AE33C97D3E9409 /* Pods-DDSwiftKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BABD2594B61E96D933F8773685F3EFD8 /* Pods-DDSwiftKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E79EF64298BA1B47AA599DCACD0F9AE1 /* DDSwiftKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B271FD220A93AE2D29DFCD331A071F /* DDSwiftKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5767D6C6B06CFF768A1B1CA5D8FF2DE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DA7344520D6707BE8D61C913D518D /* ReplaceMe.swift */; };
 		FD9C8DAF68543659695885FFE0FE4BB7 /* DDSwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0B3024402BAA70F12630AA1C47857C /* DDSwiftKit-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +67,6 @@
 		BABD2594B61E96D933F8773685F3EFD8 /* Pods-DDSwiftKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDSwiftKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BF6533F708FF892439A14E2E682624B8 /* Pods-DDSwiftKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDSwiftKit_Tests.modulemap"; sourceTree = "<group>"; };
 		C33F938F38E1210F38F7271953742DAF /* Pods-DDSwiftKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDSwiftKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC7DA7344520D6707BE8D61C913D518D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DDSwiftKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D82DCE6721C1CB8B290E89226D0D43EB /* Pods-DDSwiftKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDSwiftKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB9D49A55DEDBFFB97E67D899BCD28F0 /* DDSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DDSwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC5E54E7089554C3553DEF5FC0C66EAB /* DDSwiftKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDSwiftKit.xcconfig; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 		6473A7DF47FCEF4D6C44ABC92987B4A8 /* DDSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
-				CC7DA7344520D6707BE8D61C913D518D /* ReplaceMe.swift */,
 				73CC3BC8213E612E007D5C77 /* DDColor.swift */,
 				D492F5A19627EEEBFB8DEE6D303B1BA1 /* Pod */,
 				21A7C06841187BD099388607747BF2B6 /* Support Files */,
@@ -356,7 +353,6 @@
 			files = (
 				FD9C8DAF68543659695885FFE0FE4BB7 /* DDSwiftKit-dummy.m in Sources */,
 				73CC3BC9213E612E007D5C77 /* DDColor.swift in Sources */,
-				F5767D6C6B06CFF768A1B1CA5D8FF2DE /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
