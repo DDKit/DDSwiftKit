@@ -10,6 +10,7 @@
 		0BD507F4406D2A023CCB139AC6A17C4C /* Pods-DDSwiftKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1747466047A2FEFA12F493E701AA5F /* Pods-DDSwiftKit_Example-dummy.m */; };
 		347DC17A30259A5D4E9F2ECFD6249C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6722B3D4D6D1B617D36ED06733648104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		73CC3BC9213E612E007D5C77 /* DDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC3BC8213E612E007D5C77 /* DDColor.swift */; };
 		8B701E914E8842E7C656217CEB4357D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		BEDA3351011B05422D6940535AC6F6C7 /* Pods-DDSwiftKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5C9C96DC25E325811FB4CCE299ED12 /* Pods-DDSwiftKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6DF46F410C5EF847E0894E368DD31AD /* Pods-DDSwiftKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A69E1CBE24D646494CED6867ED047 /* Pods-DDSwiftKit_Tests-dummy.m */; };
@@ -50,6 +51,7 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5FB28620B432A70A3C1AB2B3E50E6F8E /* Pods-DDSwiftKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDSwiftKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		72B623948147092A7E8E065A3ADF90B4 /* DDSwiftKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDSwiftKit.modulemap; sourceTree = "<group>"; };
+		73CC3BC8213E612E007D5C77 /* DDColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DDColor.swift; path = DDSwiftKit/Classes/DDColor.swift; sourceTree = "<group>"; };
 		778102764C8FB052EAD18DBDF086FCCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E008AF911F73444F5C0825646EB8A0 /* Pods-DDSwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDSwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		821C1027C0E308FFFE035EB18145D419 /* Pods-DDSwiftKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDSwiftKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				CC7DA7344520D6707BE8D61C913D518D /* ReplaceMe.swift */,
+				73CC3BC8213E612E007D5C77 /* DDColor.swift */,
 				D492F5A19627EEEBFB8DEE6D303B1BA1 /* Pod */,
 				21A7C06841187BD099388607747BF2B6 /* Support Files */,
 			);
@@ -352,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9C8DAF68543659695885FFE0FE4BB7 /* DDSwiftKit-dummy.m in Sources */,
+				73CC3BC9213E612E007D5C77 /* DDColor.swift in Sources */,
 				F5767D6C6B06CFF768A1B1CA5D8FF2DE /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
