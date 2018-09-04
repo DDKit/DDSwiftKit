@@ -9,4 +9,5 @@ import UIKit
 
 public class DDColor: NSObject {
     open var red: UIColor = UIColor.red
+    open var green: UIColor = UIColor.green
 }

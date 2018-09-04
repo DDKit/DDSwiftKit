@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = DDColor().red
+        view.backgroundColor = DDColor().green
         // Do any additional setup after loading the view, typically from a nib.
     }
 
