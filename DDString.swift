@@ -14,4 +14,5 @@ public class DDString: NSObject {
     public static let 检查更新: String = "检查更新"
     public static let 修改密码: String = "修改密码"
     public static let 缓存清理: String = "缓存清理"
+    
 }
