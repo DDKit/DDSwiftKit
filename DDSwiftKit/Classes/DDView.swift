@@ -8,7 +8,7 @@
 import UIKit
 
 public extension UIView {
-    public var x: CGFloat {
+    public var dd_x: CGFloat {
         set {
             var f = frame
             f.origin.x = newValue
@@ -20,7 +20,7 @@ public extension UIView {
     }
     
     
-    public var y: CGFloat {
+    public var dd_y: CGFloat {
         set {
             var f = frame
             f.origin.y = newValue
@@ -31,7 +31,7 @@ public extension UIView {
         }
     }
     
-    public var width: CGFloat {
+    public var dd_w: CGFloat {
         set {
             var f = frame
             f.size.width = newValue
@@ -42,7 +42,7 @@ public extension UIView {
         }
     }
     
-    public var height: CGFloat {
+    public var dd_h: CGFloat {
         set {
             var f = frame
             f.size.height = newValue
@@ -53,7 +53,7 @@ public extension UIView {
         }
     }
     
-    public var size: CGSize {
+    public var dd_size: CGSize {
         set {
             var f = frame
             f.size = newValue
@@ -64,7 +64,7 @@ public extension UIView {
         }
     }
     
-    public var origin: CGPoint {
+    public var dd_origin: CGPoint {
         set {
             var f = frame
             f.origin = newValue
@@ -75,7 +75,7 @@ public extension UIView {
         }
     }
     
-    public var corner: CGFloat {
+    public var dd_corner: CGFloat {
         set {
             layer.masksToBounds = true
             layer.cornerRadius = newValue
@@ -85,7 +85,7 @@ public extension UIView {
         }
     }
     
-    public func shadow()
+    public func dd_shadow()
     {
         self.clipsToBounds = false
         self.layer.shadowColor = UIColor.gray.cgColor
@@ -94,7 +94,7 @@ public extension UIView {
         self.layer.shadowRadius = 6
     }
 
-    public var borderColor: UIColor {
+    public var dd_borderColor: UIColor {
         set {
             layer.borderColor = newValue.cgColor
         }
@@ -131,8 +131,8 @@ public extension UIButton {
     func upImageDownLabel(_ space: CGFloat = 0)
     {
         if imageView == nil || titleLabel == nil { return }
-        let imageSize = imageView!.size
-        var titleSize = titleLabel!.size
+        let imageSize = imageView!.dd_size
+        var titleSize = titleLabel!.dd_size
         titleSize.width = max(titleSize.width,titleLabel!.intrinsicContentSize.width)
         titleEdgeInsets = UIEdgeInsets(top: imageSize.height + space, left: -imageSize.width, bottom: -space, right: 0)
         imageEdgeInsets = UIEdgeInsets(top: -space, left: 0, bottom: 0, right: -titleSize.width)
@@ -142,8 +142,8 @@ public extension UIButton {
     func leftImageRightLabel(_ space: CGFloat = 0)
     {
         if imageView == nil || titleLabel == nil { return }
-        let imageSize = imageView!.size
-        var titleSize = titleLabel!.size
+        let imageSize = imageView!.dd_size
+        var titleSize = titleLabel!.dd_size
         titleSize.width = max(titleSize.width,titleLabel!.intrinsicContentSize.width)
         titleEdgeInsets = UIEdgeInsets(top: 0, left: -imageSize.width - space, bottom: 0, right: imageSize.width)
         imageEdgeInsets = UIEdgeInsets(top: 0, left: titleSize.width, bottom: 0, right: -titleSize.width)
@@ -153,9 +153,9 @@ public extension UIButton {
     func badge(_ value: Int?) {
         if imageView == nil || titleLabel == nil { return }
         let badgeW: CGFloat = 20
-        let imageSize = imageView!.size
-        let imageX = imageView!.x
-        let imageY = imageView!.y
+        let imageSize = imageView!.dd_size
+        let imageX = imageView!.dd_x
+        let imageY = imageView!.dd_y
         let badgeLable = UILabel()
         badgeLable.text = value == nil ? "" : "\(value!)"
         badgeLable.textAlignment = .center
